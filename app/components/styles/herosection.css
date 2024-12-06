@@ -51,7 +51,6 @@
     transform:scale(1.08);
     transition: 200ms;
 }
-
 .images-container{
     background-image: url('/businessman.png');
     min-width: 400px;
@@ -59,5 +58,4 @@
     background-repeat: no-repeat;
     background-size:350px;
     background-position: center;
-    
 }
