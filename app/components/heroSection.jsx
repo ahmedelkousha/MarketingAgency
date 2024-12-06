@@ -6,7 +6,7 @@ export default function HeroSection() {
     <div className="hero-container">
         {/*Hero Box*/}
         <div className='hero-box'>
-            <h2 className='heading-hero-box'>Start Building Amazing Markrting Product</h2>
+            <h2 className='heading-hero-box'>Start Building Amazing Marketing Product</h2>
             <p className='paragraph-hero-box'>Build complete awesome marketing website with amazing landing-page template</p>
             <div className='buttons-box-hero-box flex flex-row gap-4 mt-6'>
 
