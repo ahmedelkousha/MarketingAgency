@@ -1,0 +1,61 @@
+.hero-container{
+    background-color: #EDF3FF;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+.hero-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1%;
+    min-width: 500px;
+    height: 293px;
+    text-align: left;
+}
+.heading-hero-box{
+    font-size: 36px;
+    line-height: 48px;
+    color: #2C2D2D;
+}
+.paragraph-hero-box{
+    font-size: 18px;
+    line-height: 28px;
+    color: #2C2D2D;
+}
+.buttons-box-hero-box .button1{
+    width: 180px;
+    height: 50px;
+    border-radius: 80px;
+    background-color: #f26822;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+.buttons-box-hero-box .button2{
+    width: 180px;
+    height: 50px;
+    border-radius: 80px;
+    background-color: #1E5EE5;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+.buttons-box-hero-box button:hover{
+    transform:scale(1.08);
+    transition: 200ms;
+}
+
+.images-container{
+    background-image: url('/businessman.png');
+    min-width: 400px;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size:350px;
+    background-position: center;
+    
+}
