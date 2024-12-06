@@ -36,6 +36,7 @@
     background-color: #f26822;
     font-size: 17px;
     letter-spacing: 2px;
+    color: white;
 }
 .buttons-box-hero-box .button2{
     width: 180px;
@@ -44,6 +45,7 @@
     background-color: #1E5EE5;
     font-size: 17px;
     letter-spacing: 2px;
+    color: white;
 }
 .buttons-box-hero-box button:hover{
     transform:scale(1.08);
