@@ -1,9 +1,11 @@
 import HeroSection from "./components/heroSection";
+import Services from "./components/services"
 export default function Home() {
   return (
-    <div className=" text-white text-center text-4xl p-6">
+    <div >
       <h2 className="bg-black">Marketing Agency</h2>
       <HeroSection />
+      <Services />
     </div>
   );
 }
