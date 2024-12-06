@@ -36,6 +36,7 @@
     background-color: #f26822;
     font-size: 17px;
     letter-spacing: 2px;
+    color: white;
 }
 .buttons-box-hero-box .button2{
     width: 180px;
@@ -44,12 +45,12 @@
     background-color: #1E5EE5;
     font-size: 17px;
     letter-spacing: 2px;
+    color:white;
 }
 .buttons-box-hero-box button:hover{
     transform:scale(1.08);
     transition: 200ms;
 }
-
 .images-container{
     background-image: url('/businessman.png');
     min-width: 400px;
@@ -57,5 +58,4 @@
     background-repeat: no-repeat;
     background-size:350px;
     background-position: center;
-    
 }
