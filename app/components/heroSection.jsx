@@ -22,7 +22,7 @@ export default function HeroSection() {
             </div>
         </div>
         {/*image*/}
-        <div className='images-container'>
+        <div className='images-container flex justify-center'>
             <div className='icons-master mb-60 pl-2 pr-2'>
             {/* <Image src="/businessman.png" width="300" height="400" alt="icons-master" className='absolute' /> */}
             <Image src="/masthead-icon.png" width="380" height="400" alt="icons-master" />
