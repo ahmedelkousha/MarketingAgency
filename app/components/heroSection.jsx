@@ -11,12 +11,12 @@ export default function HeroSection() {
             <div className='buttons-box-hero-box flex flex-row gap-4 mt-6'>
 
                 <button className='button1 flex flex-row items-center justify-center gap-3'>
-                <img className='w-4' src="/Frame.png" alt="" />
+                <img className='w-4' src="/frame.png" alt="" />
                 <p>Video Tour</p>
                 </button>
 
                 <button className='button2 flex flex-row items-center justify-center gap-3'>
-                    <img className='w-4' src="/Vector.png" alt="" />
+                    <img className='w-4' src="/vector.png" alt="" />
                     <p>Download</p>
                     </button>
             </div>
