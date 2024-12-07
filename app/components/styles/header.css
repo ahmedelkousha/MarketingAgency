@@ -1,0 +1,19 @@
+@media (min-width: 320px) and (max-width: 768px) {
+    .header-wrapper {
+      display: flex;
+      justify-content: flex-start;
+      gap: 3%;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      scrollbar-width: none;
+      align-items:center;
+      transition: all 0.5s;
+      width: 100%;
+    }
+    .header{
+        justify-content:flex-start;
+        align-items: center;
+        gap: 15%;
+        padding: 0% 0% 0% 3%;
+    }
+}
