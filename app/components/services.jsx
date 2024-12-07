@@ -1,3 +1,5 @@
+import { FaLongArrowAltRight } from "react-icons/fa";
+
 const data = [
   {
     title: "All in one package",
@@ -49,21 +51,21 @@ const data = [
 function Services() {
   return (
     <>
-      <section className="flex justify-center items-start h-screen pt-16 w-full">
+      <section className="flex justify-center items-start min-h-screen pt-16 w-full">
         <div className="container mx-auto flex justify-center items-center flex-col p-10">
           <header className="text-center mb-5">
-            <h1 className="text-3xl font-bold mb-2 px-4 w-[430.81px] h-[92px]">
+          <h1 className="text-3xl font-bold mb-2 px-4 w-[430.81px] h-[92px]">
               We are build awesome marketing templates
             </h1>
-            <img src="/991cd436d30a9b81275808fbae79e10e.png" alt="Decoration" className="w-[85px] h-[8px] mx-auto" />
+            <img src="/991cd436d30a9b81275808fbae79e10e.png" alt="Decoration" className="w-20 h-2 mx-auto" />
           </header>
-          <article className="text-center mb-5 w-[770px] h-[48px]">
+          <article className="text-center mb-20 md:my-5 w-[270px] md:w-[770px] h-[48px]">
             <p className="text-sm mb-2">Et odio honestatis ius. Exerci numquam consequuntur no mei. Ut sed ornatus tibique, fabellas pertinax est cu.</p>
             <p className="text-sm">Te odio omittam mea, ea tractatos dissentiunt complectitur nec. Liber voluptatum ad vis.</p>
           </article>
-          <div className="flex flex-wrap p-5 w-[1200px] h-[480px]">
+          <div className="flex flex-wrap p-5 w-full max-w-screen-lg">
             {data.map((item, index) => (
-              <div key={index} className="w-1/3 p-4 flex flex-col items-start cursor-pointer">
+              <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-4 flex flex-col items-start cursor-pointer">
                 <div className="flex mb-4">
                   <img src={item.icon} alt={item.title} className="w-16 h-16 mr-4" />
                   <div>
@@ -74,25 +76,88 @@ function Services() {
               </div>
             ))}
           </div>
-          <div className="w-[720px] h-[186px] flex flex-wrap p-5 justify-center items-center">
-            <img src="/125fc2d1dda27a0debcf60380e77614a.png" alt="Marketing Image" />
+          <div className="w-full max-w-lg h-auto flex flex-wrap p-5 justify-center items-center">
+            <img src="/125fc2d1dda27a0debcf60380e77614a.png" alt="Marketing Image" className="w-full h-auto" />
           </div>
-          <div className="w-[1200px] h-[454px] grid grid-cols-2">
+          <div className="w-full max-w-screen-lg grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex justify-center items-center cursor-pointer">
-              <img src="/bb14bcbf98b4a1a17df8575d380900e8.png" alt="Working Image" />
+              <img src="/bb14bcbf98b4a1a17df8575d380900e8.png" alt="Working Image" className="w-full h-auto" />
             </div>
             <div className="flex justify-center items-center gap-2">
-              <div className="w-[400px] h-[229px]">
-                <h2 className="text-2xl w-[340.04px] h-[34px] p-2">
+              <div className="w-full max-w-md">
+                <h2 className="text-2xl w-full p-2">
                   About Smoot Template
                 </h2>
-                <p className="w-[341.78px] h-[90px] p-2 my-4">
+                <p className="w-full p-2 my-4">
                   Et odio honestatis ius. Exerci numquam consequuntur no mei. Ut sed ornatus tibique, fabellas pertinax est cu. Te odio omittam mea, ea tractatos dissentiunt complectitur nec.
                 </p>
-                <button className="w-[157.95px] h-[51px] bg-blue-600 rounded-full my-4 text-white transition-transform duration-300 transform hover:scale-105 cursor-pointer">
+                <button className="w-40 h-12 bg-blue-600 rounded-full my-4 text-white transition-transform duration-300 transform hover:scale-105 cursor-pointer">
                   Learn more
                 </button>
               </div>
+            </div>
+          </div>
+          <div className="w-full max-w-lg h-auto flex flex-wrap p-5 justify-center items-center">
+            <img src="/7ef1b3a78b463c71b50d64d58d053983.png" alt="Marketing Image" className="w-full h-auto" />
+          </div>
+          <div className="w-full max-w-screen-lg grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="flex justify-center items-center gap-2">
+              <div className="w-full max-w-md">
+                <h2 className="text-2xl w-full p-2">
+                Vision and Mission
+                </h2>
+                <p className="w-full p-2 my-4">
+                Et odio honestatis ius. Exerci numquam
+                consequuntur no mei. Ut sed ornatus tibique,
+                fabellas pertinax est cu. Te odio omittam mea, ea
+                tractatos dissentiunt complectitur nec.
+                </p>
+                <button className="w-40 h-12 bg-blue-600 rounded-full my-4 text-white transition-transform duration-300 transform hover:scale-105 cursor-pointer">
+                  Learn more
+                </button>
+              </div>
+            </div>
+            <div className="flex justify-center items-center cursor-pointer">
+              <img src="/46ac0994b5d72253b1d8db3a7c2ecf88.png" alt="Working Image" className="w-full h-auto" />
+            </div>
+          
+          </div>
+          <div className="w-full max-w-lg h-auto flex flex-wrap p-5 justify-center items-center">
+            <img src="/125fc2d1dda27a0debcf60380e77614a.png" alt="Marketing Image" className="w-full h-auto" />
+          </div>
+          <div className="w-full max-w-screen-lg grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="flex justify-center items-center cursor-pointer">
+              <img src="/9c401dbe989f90de53ab3bed12133ca1.png" alt="Working Image" className="w-full h-auto" />
+            </div>
+            <div className="flex justify-center items-center gap-2">
+              <div className="w-full max-w-md">
+                <h2 className="text-2xl w-full p-2">
+                Other Software Product
+                </h2>
+                <p className="w-full p-2 my-4">
+                      Et odio honestatis ius. Exerci numquam
+                      consequuntur no mei. Ut sed ornatus tibique,
+                      fabellas pertinax est cu. Te odio omittam mea, ea
+                      tractatos dissentiunt complectitur nec.
+                </p>
+                <button className="w-40 h-12 bg-blue-600 rounded-full my-4 text-white transition-transform duration-300 transform hover:scale-105 cursor-pointer">
+                  Learn more 
+                </button>
+              </div>
+            </div>
+          </div>                      
+          <div className="w-[470px]  md:w-[1170px]  h-[247px] bg-purple-800 relative rounded-lg my-5">
+            <img src="/0d0302359ca38eec6ff2c7e2715a8826.png" alt="Background" className="absolute inset-0 w-full h-full object-cover opacity-70" />
+            <div className="relative flex flex-col justify-center items-center h-full">
+                <h1 className="text-white text-3xl font-bold mb-4 md:w-[469.76px] h-[34px]">
+                Let's try it's free trail for 30 days
+                </h1>
+                <div className="flex flex-col md:flex-row justify-end items-center gap-4 w-[80%]">
+                        <button className="w-40 h-12 md:w-[170.52px] md:h-[51px]  flex justify-center items-center gap-2 bg-white rounded-full text-black transition-transform duration-300 transform hover:scale-105 hover:shadow-lg cursor-pointer">
+                        Click Me <FaLongArrowAltRight />
+                      </button>       
+                </div>
+              
             </div>
           </div>
         </div>
