@@ -54,7 +54,7 @@ function Services() {
       <section className="flex justify-center items-start min-h-screen pt-16 w-full">
         <div className="container mx-auto flex justify-center items-center flex-col p-10">
           <header className="text-center mb-5">
-          <h1 className="text-3xl font-bold mb-2 px-4 w-[430.81px] h-[92px]">
+          <h1 className="text-3xl font-bold mb-2 px-4 w-[320px] h-[92px]">
               We are build awesome marketing templates
             </h1>
             <img src="/991cd436d30a9b81275808fbae79e10e.png" alt="Decoration" className="w-20 h-2 mx-auto" />
@@ -63,7 +63,7 @@ function Services() {
             <p className="text-sm mb-2">Et odio honestatis ius. Exerci numquam consequuntur no mei. Ut sed ornatus tibique, fabellas pertinax est cu.</p>
             <p className="text-sm">Te odio omittam mea, ea tractatos dissentiunt complectitur nec. Liber voluptatum ad vis.</p>
           </article>
-          <div className="flex flex-wrap p-5 w-full max-w-screen-lg">
+          <div className="flex flex-wrap p-5 w-screen max-w-screen-lg">
             {data.map((item, index) => (
               <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-4 flex flex-col items-start cursor-pointer">
                 <div className="flex mb-4">
@@ -146,7 +146,7 @@ function Services() {
               </div>
             </div>
           </div>                      
-          <div className="w-[470px]  md:w-[1170px]  h-[247px] bg-purple-800 relative rounded-lg my-5">
+          <div className="banner  h-[247px] bg-purple-800 relative rounded-lg my-5">
             <img src="/0d0302359ca38eec6ff2c7e2715a8826.png" alt="Background" className="absolute inset-0 w-full h-full object-cover opacity-70" />
             <div className="relative flex flex-col justify-center items-center h-full">
                 <h1 className="text-white text-3xl font-bold mb-4 md:w-[469.76px] h-[34px]">

@@ -1,3 +1,28 @@
+@media (min-width: 320px) and (max-width: 768px){
+    .hero-container{
+        flex-direction: column-reverse !important;
+        padding: 0% 0% 0% 0% !important;
+        gap: 5% !important;
+    }
+    .banner{
+        width: 90vw !important;
+    }
+    .images-container{
+        min-width: 330px !important;
+        height: 400px !important;
+        background-repeat: no-repeat;
+        background-size:280px !important;
+        background-position: bottom !important;
+    }
+    .hero-box{
+        padding: 0% 3% 0% 5% !important;
+        width: 100vw;
+    }
+    .icons-master{
+        margin-top: -10px;
+    }
+}
+
 .hero-container{
     background-color: #EDF3FF;
     width: 100vw;
@@ -15,7 +40,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 1%;
-    min-width: 500px;
+    max-width: 500px;
     height: 293px;
     text-align: left;
 }
@@ -30,32 +55,25 @@
     color: #2C2D2D;
 }
 .buttons-box-hero-box .button1{
-    width: 180px;
-    height: 50px;
-    border-radius: 80px;
-    background-color: #f26822;
-    font-size: 17px;
+    /* font-size: 17px; */
     letter-spacing: 2px;
-    color: white;
 }
 .buttons-box-hero-box .button2{
-    width: 180px;
-    height: 50px;
-    border-radius: 80px;
-    background-color: #1E5EE5;
-    font-size: 17px;
+    /* font-size: 17px; */
     letter-spacing: 2px;
-    color: white;
 }
-.buttons-box-hero-box button:hover{
+/* .buttons-box-hero-box button:hover{
     transform:scale(1.08);
     transition: 200ms;
-}
+} */
 .images-container{
     background-image: url('/businessman.png');
     min-width: 400px;
-    min-height: 600px;
+    min-height: 400px;
     background-repeat: no-repeat;
     background-size:350px;
     background-position: center;
+}
+.banner{
+    width: 60vw;
 }
