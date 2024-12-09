@@ -65,7 +65,7 @@ function Services() {
           </article>
           <div className="flex flex-wrap p-5 w-screen max-w-screen-lg">
             {data.map((item, index) => (
-              <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-4 flex flex-col items-start cursor-pointer">
+              <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-4 flex flex-col items-start">
                 <div className="flex mb-4">
                   <img src={item.icon} alt={item.title} className="w-16 h-16 mr-4" />
                   <div>
@@ -151,15 +151,15 @@ function Services() {
               </div>
             </div>
           </div>                      
-          <div className="banner  h-[247px] bg-purple-800 relative rounded-lg my-5">
+          <div className="banner  h-[247px] bg-[#403595] relative rounded-lg my-5">
             <img src="/0d0302359ca38eec6ff2c7e2715a8826.png" alt="Background" className="absolute inset-0 w-full h-full object-cover opacity-70" />
             <div className="relative flex flex-col justify-center items-center h-full">
-                <h1 className="text-white text-[22px] font-bold mb-10 md:w-[469.76px] h-[34px] md:text-3xl pl-2 pr-2 text-center">
-                Let's try it's free trail for 30 days
+                <h1 className="text-white text-[23px] font-bold mb-10 md:w-[469.76px] h-[34px] md:text-[28px] pl-2 pr-2 text-center text-pretty">
+                Let's try free trial for 30 days
                 </h1>
                 <div className="flex flex-col md:flex-row justify-end items-center gap-4 w-[80%]">
                         <button className="w-40 h-12 md:w-[170.52px] md:h-[51px]  flex justify-center items-center gap-2 bg-white rounded-full text-black transition-transform duration-300 transform hover:scale-105 hover:shadow-lg cursor-pointer">
-                        Click Me <FaLongArrowAltRight />
+                        Subscribe <FaLongArrowAltRight />
                       </button>       
                 </div>
               
