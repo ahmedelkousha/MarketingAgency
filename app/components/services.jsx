@@ -54,8 +54,8 @@ function Services() {
       <section className="flex justify-center items-start min-h-screen pt-16 w-full">
         <div className="container mx-auto flex justify-center items-center flex-col p-10">
           <header className="text-center mb-5">
-          <h1 className="text-3xl font-bold mb-2 px-4 w-[320px] h-[92px]">
-              We are build awesome marketing templates
+          <h1 className="text-[28px] font-bold mb-2 px-4 w-[340px] h-[92px] md:text-3xl md:w-[355px] tracking-wider">
+              We build awesome marketing templates
             </h1>
             <img src="/991cd436d30a9b81275808fbae79e10e.png" alt="Decoration" className="w-20 h-2 mx-auto" />
           </header>
@@ -100,8 +100,11 @@ function Services() {
           <div className="w-full max-w-lg h-auto flex flex-wrap p-5 justify-center items-center">
             <img src="/7ef1b3a78b463c71b50d64d58d053983.png" alt="Marketing Image" className="w-full h-auto" />
           </div>
+
           <div className="w-full max-w-screen-lg grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="flex justify-center items-center gap-2">
+
+          <div className="flex justify-center items-center gap-2 order-2 md:order-1">
+
               <div className="w-full max-w-md">
                 <h2 className="text-2xl w-full p-2">
                 Vision and Mission
@@ -116,10 +119,12 @@ function Services() {
                   Learn more
                 </button>
               </div>
-            </div>
-            <div className="flex justify-center items-center cursor-pointer">
+
+              </div>
+
+              <div className="flex justify-center items-center cursor-pointer order-1 md:order-2">
               <img src="/46ac0994b5d72253b1d8db3a7c2ecf88.png" alt="Working Image" className="w-full h-auto" />
-            </div>
+              </div>
           
           </div>
           <div className="w-full max-w-lg h-auto flex flex-wrap p-5 justify-center items-center">
@@ -149,7 +154,7 @@ function Services() {
           <div className="banner  h-[247px] bg-purple-800 relative rounded-lg my-5">
             <img src="/0d0302359ca38eec6ff2c7e2715a8826.png" alt="Background" className="absolute inset-0 w-full h-full object-cover opacity-70" />
             <div className="relative flex flex-col justify-center items-center h-full">
-                <h1 className="text-white text-3xl font-bold mb-4 md:w-[469.76px] h-[34px]">
+                <h1 className="text-white text-[22px] font-bold mb-10 md:w-[469.76px] h-[34px] md:text-3xl pl-2 pr-2 text-center">
                 Let's try it's free trail for 30 days
                 </h1>
                 <div className="flex flex-col md:flex-row justify-end items-center gap-4 w-[80%]">
