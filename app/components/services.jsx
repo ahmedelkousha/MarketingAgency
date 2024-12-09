@@ -1,4 +1,5 @@
 import { FaLongArrowAltRight } from "react-icons/fa";
+import Image from "next/image";
 
 const data = [
   {
@@ -54,10 +55,10 @@ function Services() {
       <section className="flex justify-center items-start min-h-screen pt-16 w-full">
         <div className="container mx-auto flex justify-center items-center flex-col p-10">
           <header className="text-center mb-5">
-          <h1 className="text-[28px] font-bold mb-2 px-4 w-[340px] h-[92px] md:text-3xl md:w-[355px] tracking-wider">
+            <h1 className="text-[28px] font-bold mb-2 px-4 w-[340px] h-[92px] md:text-3xl md:w-[355px] tracking-wider">
               We build awesome marketing templates
             </h1>
-            <img src="/991cd436d30a9b81275808fbae79e10e.png" alt="Decoration" className="w-20 h-2 mx-auto" />
+            <Image width={80} height={8} src="/991cd436d30a9b81275808fbae79e10e.png" alt="Decoration" className=" mx-auto" />
           </header>
           <article className="text-center mb-20 md:my-5 w-[270px] md:w-[770px] h-[48px]">
             <p className="text-sm mb-2">Et odio honestatis ius. Exerci numquam consequuntur no mei. Ut sed ornatus tibique, fabellas pertinax est cu.</p>
@@ -67,7 +68,7 @@ function Services() {
             {data.map((item, index) => (
               <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-4 flex flex-col items-start">
                 <div className="flex mb-4">
-                  <img src={item.icon} alt={item.title} className="w-16 h-16 mr-4" />
+                  <Image width={16} height={16} src={item.icon} alt={item.title} className="w-16 h-16 mr-4" />
                   <div>
                     <h2 className="text-xl font-semibold mb-2">{item.title}</h2>
                     <p className="text-sm">{item.description}</p>
@@ -77,11 +78,11 @@ function Services() {
             ))}
           </div>
           <div className="w-full max-w-lg h-auto flex flex-wrap p-5 justify-center items-center">
-            <img src="/125fc2d1dda27a0debcf60380e77614a.png" alt="Marketing Image" className="w-full h-auto" />
+            <Image width={472} height={122} style={{ width: '100%', height: 'auto' }} src="/125fc2d1dda27a0debcf60380e77614a.png" alt="Marketing Image" />
           </div>
           <div className="w-full max-w-screen-lg grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="flex justify-center items-center cursor-pointer">
-              <img src="/bb14bcbf98b4a1a17df8575d380900e8.png" alt="Working Image" className="w-full h-auto" />
+            <div className="flex justify-center items-center">
+              <Image width={504} height={273} style={{ width: '100%', height: 'auto' }} src="/bb14bcbf98b4a1a17df8575d380900e8.png" alt="Working Image" />
             </div>
             <div className="flex justify-center items-center gap-2">
               <div className="w-full max-w-md">
@@ -98,71 +99,71 @@ function Services() {
             </div>
           </div>
           <div className="w-full max-w-lg h-auto flex flex-wrap p-5 justify-center items-center">
-            <img src="/7ef1b3a78b463c71b50d64d58d053983.png" alt="Marketing Image" className="w-full h-auto" />
+            <Image width={472} height={122} style={{ width: '100%', height: 'auto' }} src="/7ef1b3a78b463c71b50d64d58d053983.png" alt="Marketing Image" />
           </div>
 
           <div className="w-full max-w-screen-lg grid grid-cols-1 md:grid-cols-2 gap-4">
 
-          <div className="flex justify-center items-center gap-2 order-2 md:order-1">
+            <div className="flex justify-center items-center gap-2 order-2 md:order-1">
 
               <div className="w-full max-w-md">
                 <h2 className="text-2xl w-full p-2">
-                Vision and Mission
+                  Vision and Mission
                 </h2>
                 <p className="w-full p-2 my-4">
-                Et odio honestatis ius. Exerci numquam
-                consequuntur no mei. Ut sed ornatus tibique,
-                fabellas pertinax est cu. Te odio omittam mea, ea
-                tractatos dissentiunt complectitur nec.
+                  Et odio honestatis ius. Exerci numquam
+                  consequuntur no mei. Ut sed ornatus tibique,
+                  fabellas pertinax est cu. Te odio omittam mea, ea
+                  tractatos dissentiunt complectitur nec.
                 </p>
                 <button className="w-40 h-12 bg-blue-600 rounded-full my-4 text-white transition-transform duration-300 transform hover:scale-105 cursor-pointer">
                   Learn more
                 </button>
               </div>
 
-              </div>
+            </div>
 
-              <div className="flex justify-center items-center cursor-pointer order-1 md:order-2">
-              <img src="/46ac0994b5d72253b1d8db3a7c2ecf88.png" alt="Working Image" className="w-full h-auto" />
-              </div>
-          
+            <div className="flex justify-center items-center order-1 md:order-2">
+              <Image width={504} height={273} style={{ width: '100%', height: 'auto' }} src="/46ac0994b5d72253b1d8db3a7c2ecf88.png" alt="Working Image" />
+            </div>
+
           </div>
           <div className="w-full max-w-lg h-auto flex flex-wrap p-5 justify-center items-center">
-            <img src="/125fc2d1dda27a0debcf60380e77614a.png" alt="Marketing Image" className="w-full h-auto" />
+            <Image width={472} height={122} style={{ width: '100%', height: 'auto' }} src="/125fc2d1dda27a0debcf60380e77614a.png" alt="Marketing Image" />
           </div>
           <div className="w-full max-w-screen-lg grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="flex justify-center items-center cursor-pointer">
-              <img src="/9c401dbe989f90de53ab3bed12133ca1.png" alt="Working Image" className="w-full h-auto" />
+            <div className="flex justify-center items-center">
+              <Image width={504} height={273} style={{ width: '100%', height: 'auto' }} src="/9c401dbe989f90de53ab3bed12133ca1.png" alt="Working Image" />
             </div>
             <div className="flex justify-center items-center gap-2">
               <div className="w-full max-w-md">
                 <h2 className="text-2xl w-full p-2">
-                Other Software Product
+                  Other Software Product
                 </h2>
                 <p className="w-full p-2 my-4">
-                      Et odio honestatis ius. Exerci numquam
-                      consequuntur no mei. Ut sed ornatus tibique,
-                      fabellas pertinax est cu. Te odio omittam mea, ea
-                      tractatos dissentiunt complectitur nec.
+                  Et odio honestatis ius. Exerci numquam
+                  consequuntur no mei. Ut sed ornatus tibique,
+                  fabellas pertinax est cu. Te odio omittam mea, ea
+                  tractatos dissentiunt complectitur nec.
                 </p>
                 <button className="w-40 h-12 bg-blue-600 rounded-full my-4 text-white transition-transform duration-300 transform hover:scale-105 cursor-pointer">
-                  Learn more 
+                  Learn more
                 </button>
               </div>
             </div>
-          </div>                      
+          </div>
           <div className="banner  h-[247px] bg-[#403595] relative rounded-lg my-5">
-            <img src="/0d0302359ca38eec6ff2c7e2715a8826.png" alt="Background" className="absolute inset-0 w-full h-full object-cover opacity-70" />
+            <Image width={1008} height={250} style={{ width: '100%', height: '100%' }} src="/0d0302359ca38eec6ff2c7e2715a8826.png" alt="Background" className="absolute inset-0 object-cover opacity-70" />
             <div className="relative flex flex-col justify-center items-center h-full">
-                <h1 className="text-white text-[23px] font-bold mb-10 md:w-[469.76px] h-[34px] md:text-[28px] pl-2 pr-2 text-center text-pretty">
-                Let's try free trial for 30 days
-                </h1>
-                <div className="flex flex-col md:flex-row justify-end items-center gap-4 w-[80%]">
-                        <button className="w-40 h-12 md:w-[170.52px] md:h-[51px]  flex justify-center items-center gap-2 bg-white rounded-full text-black transition-transform duration-300 transform hover:scale-105 hover:shadow-lg cursor-pointer">
-                        Subscribe <FaLongArrowAltRight />
-                      </button>       
-                </div>
-              
+              <h1 className="text-white text-[23px] font-bold mb-10 md:w-[469.76px] h-[34px] md:text-[28px] pl-2 pr-2 text-center text-pretty">
+                {`Let${'`'}s try free trial for 30 days`}
+              </h1>
+              <div className="flex flex-col md:flex-row justify-end items-center gap-4 w-[80%]">
+                <button className="w-40 h-12 md:w-[170.52px] md:h-[51px]  flex justify-center items-center gap-2 bg-white rounded-full text-black transition-transform duration-300 transform hover:scale-105 hover:shadow-lg cursor-pointer">
+                  Subscribe <FaLongArrowAltRight />
+                </button>
+              </div>
+
             </div>
           </div>
         </div>
