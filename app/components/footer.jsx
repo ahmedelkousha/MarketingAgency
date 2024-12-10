@@ -25,10 +25,10 @@ const ELEMENTS_ARRAY = [
 
 export default function Footer() {
     return (
-        <div className="md:max-w-[1500px] md:h-[450px] bg-[#ffffff] my-0 mx-auto py-[12%] md:py-[4%] flex md:flex-row items-start md:justify-center justify-start gap-y-[65px] gap-x-[10%] md:gap-x-[5%] px-[8%] md:flex-nowrap flex-wrap">
+        <div className="md:max-w-[1300px] md:h-[400px] bg-[#ffffff] my-0 mx-auto pt-[12%] pb-[4%] md:py-[4%] flex md:flex-row items-start md:justify-center justify-start gap-y-[65px] gap-x-[10%] md:gap-x-[5%] px-[8%] md:flex-nowrap flex-wrap text-[14px]">
 
             <div className="flex flex-col gap-[20px] w-[270px]">
-                <h1 className="text-[26px] font-[700] md:mb-[10px] mb-[10px] grow-[2]">
+                <h1 className="text-[26px] font-[700] md:mb-[1px] mb-[10px] grow-[2]">
                     DWS
                 </h1>
                 <span>St.Kemacetan timur No.13 Block Q2 Jakarta - Indonesia</span>
@@ -43,22 +43,22 @@ export default function Footer() {
             </div>
 
             <div className="max-w-[170px] text-nowrap ">
-                <h2 className="md:mb-[40px] mb-[20px] font-semibold">Product</h2>
+                <h2 className="md:mb-[36px] mb-[20px] font-semibold">Product</h2>
                 <FooterRow elementsArray={ELEMENTS_ARRAY[0]} />
             </div>
 
             <div className="max-w-[170px] text-nowrap ">
-                <h2 className="md:mb-[40px] mb-[20px] font-semibold">Company</h2>
+                <h2 className="md:mb-[36px] mb-[20px] font-semibold">Company</h2>
                 <FooterRow elementsArray={ELEMENTS_ARRAY[1]} />
             </div>
 
             <div className="max-w-[170px] text-nowrap">
-                <h2 className="md:mb-[40px] mb-[20px] font-semibold">Resources</h2>
+                <h2 className="md:mb-[36px] mb-[20px] font-semibold">Resources</h2>
                 <FooterRow elementsArray={ELEMENTS_ARRAY[2]} />
             </div>
 
             <div className="flex flex-col max-w-[270px]">
-                <h2 className="md:mb-[40px] mb-[20px] font-semibold">Follow us</h2>
+                <h2 className="md:mb-[36px] mb-[20px] font-semibold">Follow us</h2>
                 <div className="flex flex-row gap-2">
 
                     <a href="#" className="bg-[#EAEEF4] w-[33px] h-[33px] rounded-full flex flex-row justify-center items-center hover:bg-slate-300 hover:-translate-y-1 duration-300">
