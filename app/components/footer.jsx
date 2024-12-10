@@ -61,20 +61,20 @@ export default function Footer() {
                 <h2 className="md:mb-[36px] mb-[20px] font-semibold">Follow us</h2>
                 <div className="flex flex-row gap-2">
 
-                    <a href="#" className="bg-[#EAEEF4] w-[33px] h-[33px] rounded-full flex flex-row justify-center items-center hover:bg-slate-300 hover:-translate-y-1 duration-300">
-                        <Image width={12} height={12} src="/fbIcon.png" />
+                    <a href="#" className="bg-[#EAEEF4] w-9 h-9 rounded-full flex flex-row justify-center items-center hover:bg-slate-300 hover:-translate-y-1 duration-300">
+                        <Image width={12} height={19} style={{width:"12px", height:"19px"}} src="/fbIcon.png" />
                     </a>
 
-                    <a href="#" className="bg-[#EAEEF4] w-[33px] h-[33px] rounded-full flex flex-row justify-center items-center hover:bg-slate-300 hover:-translate-y-1 duration-300">
-                        <Image width={18} height={18} src="/twitterIcon.png" />
+                    <a href="#" className="bg-[#EAEEF4] w-9 h-9 rounded-full flex flex-row justify-center items-center hover:bg-slate-300 hover:-translate-y-1 duration-300">
+                        <Image width={18} height={19} style={{ width: "18px", height: "19px" }} src="/twitterIcon.png" />
                     </a>
 
-                    <a href="#" className="bg-[#EAEEF4] w-[33px] h-[33px] rounded-full flex flex-row justify-center items-center hover:bg-slate-300 hover:-translate-y-1 duration-300">
-                        <Image width={18} height={18} src="/linkedinIcon.png" />
+                    <a href="#" className="bg-[#EAEEF4] w-9 h-9 rounded-full flex flex-row justify-center items-center hover:bg-slate-300 hover:-translate-y-1 duration-300">
+                        <Image width={17} height={19} style={{ width: "17px", height: "19px" }} src="/linkedinIcon.png" />
                     </a>
 
-                    <a href="#" className="bg-[#EAEEF4] w-[33px] h-[33px] rounded-full flex flex-row justify-center items-center hover:bg-slate-300 hover:-translate-y-1 duration-300">
-                        <Image width={18} height={18} src="/youtubeIcon.png" />
+                    <a href="#" className="bg-[#EAEEF4] w-9 h-9 rounded-full flex flex-row justify-center items-center hover:bg-slate-300 hover:-translate-y-1 duration-300">
+                        <Image width={19} height={19} style={{ width: "19px", height: "19px" }} src="/youtubeIcon.png" />
                     </a>
 
                 </div>
