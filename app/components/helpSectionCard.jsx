@@ -9,13 +9,11 @@ export default function HelpSectionCard({ iconSrc, cardHead, cardPar, btnPar, ic
                 <Image src={iconSrc} alt={iconAlt} width={60} height={60} />
             </div>
 
-            <div className="flex flex-col items-start gap-[16px]">
+            <div className="flex flex-col items-start gap-[16px] h-full">
                 <h2>{cardHead}</h2>
                 <p>{cardPar}</p>
-                <button>
-                    <div className="flex flex-row justify-center items-center md:gap-3 gap-2 min-w-max">
+                <button className="flex flex-row justify-center items-center md:gap-3 gap-2 min-w-max mt-auto">
                     {btnPar} <FaLongArrowAltRight />
-                    </div>
                 </button>
             </div>
 
