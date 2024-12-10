@@ -8,7 +8,7 @@ const HELP_SECTION_CARD = [
 
 export default function HelpSection() {
     return (
-        <div className="bg-[#403595] md:w-screen max-h-fit py-[6%] md:h-[410px] flex flex-col md:flex-row justify-center items-center gap-8 px-[5%]">
+        <div className="bg-[#403595] md:w-full max-h-fit py-[6%] md:h-fit flex flex-col md:flex-row justify-center items-center gap-8 px-[5%] flex-wrap">
 
             {HELP_SECTION_CARD.map((section, index) => (
                 <HelpSectionCard key={index} iconSrc={section.iconSrc} cardHead={section.cardHead} cardPar={section.cardPar} btnPar={section.btnPar} iconAlt={section.iconAlt} />

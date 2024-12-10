@@ -20,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="antialiased font-sans cursor-default"
+      <body className="antialiased font-sans cursor-default m-0"
         /*className={`${geistSans.variable} ${geistMono.variable} antialiased`}*/
       >
         {children}
