@@ -159,8 +159,8 @@ function Services() {
                 {`Let${'`'}s try free trial for 30 days`}
               </h1>
               <div className="flex flex-col md:flex-row justify-end items-center gap-4 w-[80%]">
-                <button className="w-40 h-12 md:w-[170.52px] md:h-[51px]  flex justify-center items-center gap-2 bg-white rounded-full text-black transition-transform duration-300 transform hover:scale-105 hover:shadow-lg cursor-pointer">
-                  Subscribe <FaLongArrowAltRight />
+                <button className="group/item w-40 h-12 md:w-[170.52px] md:h-[51px] flex justify-center items-center gap-2 bg-white rounded-full text-black transition-transform duration-300 transform hover:scale-105 hover:shadow-lg cursor-pointer">
+                  Subscribe <FaLongArrowAltRight className="group-hover/item:translate-x-2 duration-300" />
                 </button>
               </div>
 

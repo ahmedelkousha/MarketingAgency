@@ -2,6 +2,8 @@ import HeroSection from "./components/heroSection";
 import Header from "./components/header";
 import Services from "./components/services";
 import HelpSection from "./components/helpSection";
+import Footer from "./components/footer";
+
 export default function Home() {
   return (
     <div>
@@ -11,6 +13,7 @@ export default function Home() {
       <HeroSection />
       <Services/>
       <HelpSection/>
+      <Footer/>
     </div>
   );
 }

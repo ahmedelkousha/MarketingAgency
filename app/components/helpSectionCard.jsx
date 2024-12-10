@@ -12,8 +12,8 @@ export default function HelpSectionCard({ iconSrc, cardHead, cardPar, btnPar, ic
             <div className="flex flex-col items-start gap-[16px] h-full">
                 <h2>{cardHead}</h2>
                 <p>{cardPar}</p>
-                <button className="flex flex-row justify-center items-center md:gap-3 gap-2 min-w-max mt-auto">
-                    {btnPar} <FaLongArrowAltRight />
+                <button className="group/item flex flex-row justify-center items-center md:gap-3 gap-2 min-w-max mt-auto">
+                    {btnPar} <FaLongArrowAltRight className="group-hover/item:translate-x-2 duration-300" />
                 </button>
             </div>
 
