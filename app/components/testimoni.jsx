@@ -8,10 +8,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 function Testimoni() {
-  const cards = [ { title: 'Alexandro Oddol', image: '/e8df1343984278474a6b148aa7a691a0.png', },
-     { title: 'Jacob Kingston', image: '/3052-11.jpg', }, 
-     { title: 'Michael Crawford', image: '/6472122961_c6477930d1_b-460x460.jpg', },
-     ];
+  const cards = [{ title: 'Alexandro Oddol', image: '/e8df1343984278474a6b148aa7a691a0.png', },
+  { title: 'Jacob Kingston', image: '/3052-11.jpg', },
+  { title: 'Michael Crawford', image: '/6472122961_c6477930d1_b-460x460.jpg', },
+  ];
   const instagramCards = [
     {
       user: 'john_doe',
@@ -33,7 +33,7 @@ function Testimoni() {
 
   return (
     <div className="flex flex-col justify-center items-center min-h-screen w-full px-4">
-        <div className="flex justify-center items-center min-h-screen w-full bg-gray-100 px-4">
+      <div className="flex justify-center items-center min-h-screen w-full bg-gray-100 px-4">
         <div className="w-full md:w-[90%] max-w-6xl mx-auto py-10">
           <div className="text-center mb-10 flex flex-col justify-center items-center">
             <h1 className="text-3xl md:text-4xl font-bold mb-4 tracking-wide text-gray-800">

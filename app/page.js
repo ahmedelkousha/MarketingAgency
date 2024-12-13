@@ -10,14 +10,14 @@ export default function Home() {
   return (
     <div>
       <div className="header-wrapper sticky top-0 bg-white z-10 border-b-2">
-      <Header/>
+        <Header />
       </div>
       <HeroSection />
-      <Services/>
-      <HelpSection/>
-      <Testimoni/>
-      <Footer/>
-      <CopyrightSection/>
+      <Services />
+      <Testimoni />
+      <HelpSection />
+      <Footer />
+      <CopyrightSection />
     </div>
   );
 }
