@@ -48,11 +48,11 @@ function Testimoni() {
               priority
             />
             <article className="text-center flex flex-col justify-center items-center mt-10 pt-10 md:my-5 w-full md:w-[770px] h-auto md:h-[48px]">
-              <p className="text-sm mb-2">Mei ne audire fabulas. Ea mea quas</p>
-              <p className="text-sm flex justify-center">
+              <div className="text-sm mb-2">Mei ne audire fabulas. Ea mea quas</div>
+              <div className="text-sm flex justify-center">
                 {' '}
-                putent, sit an lucilius <h3 className="font-bold px-1">repudiandae</h3>, mei ut{' '}
-              </p>
+                putent, sit an lucilius <p className="font-bold px-1">repudiandae</p>, mei ut{' '}
+              </div>
               <p className="text-sm flex justify-center"> appetere electram maluisset. </p>
             </article>
           </div>

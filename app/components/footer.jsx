@@ -34,11 +34,11 @@ export default function Footer() {
                 </h1>
                 <span>St.Kemacetan timur No.13 Block Q2 Jakarta - Indonesia</span>
                 <div className="flex flex-row gap-2 justify-start items-center text-nowrap">
-                    <Image width={15} height={15} style={{ width: "15px", height: "18px" }} src="/phone.png" alt="phone icon" />
+                    <Image width={15} height={15} style={{ width: "15px", height: "18px" }} src="/phone.png" alt="phone-icon" />
                     <a href="#">(021) 111-222-333-44</a>
                 </div>
                 <div className="flex flex-row gap-2 justify-start items-center text-nowrap">
-                    <Image width={15} height={15} style={{width:"15px", height:"15px"}} src="/email.png" alt="email icon" />
+                    <Image width={15} height={15} style={{width:"15px", height:"15px"}} src="/email.png" alt="email-icon" />
                     <a href="#">info@yourdomain.com</a>
                 </div>
             </div>
@@ -63,19 +63,19 @@ export default function Footer() {
                 <div className="flex flex-row gap-2">
 
                     <Link href="#" className="bg-[#EAEEF4] w-9 h-9 rounded-full flex flex-row justify-center items-center hover:bg-slate-300 hover:-translate-y-1 duration-300">
-                        <Image width={12} height={19} style={{width:"12px", height:"19px"}} src="/fbIcon.png" />
+                        <Image width={12} height={19} style={{width:"12px", height:"19px"}} src="/fbIcon.png" alt="fb-icon" />
                     </Link>
 
                     <Link href="#" className="bg-[#EAEEF4] w-9 h-9 rounded-full flex flex-row justify-center items-center hover:bg-slate-300 hover:-translate-y-1 duration-300">
-                        <Image width={18} height={19} style={{ width: "18px", height: "19px" }} src="/twitterIcon.png" />
+                        <Image width={18} height={19} style={{ width: "18px", height: "19px" }} src="/twitterIcon.png" alt="twitter-icon" />
                     </Link>
 
                     <Link href="#" className="bg-[#EAEEF4] w-9 h-9 rounded-full flex flex-row justify-center items-center hover:bg-slate-300 hover:-translate-y-1 duration-300">
-                        <Image width={17} height={19} style={{ width: "17px", height: "19px" }} src="/linkedinIcon.png" />
+                        <Image width={17} height={19} style={{ width: "17px", height: "19px" }} src="/linkedinIcon.png" alt="linkedin-icon" />
                     </Link>
 
                     <Link href="#" className="bg-[#EAEEF4] w-9 h-9 rounded-full flex flex-row justify-center items-center hover:bg-slate-300 hover:-translate-y-1 duration-300">
-                        <Image width={19} height={19} style={{ width: "19px", height: "19px" }} src="/youtubeIcon.png" />
+                        <Image width={19} height={19} style={{ width: "19px", height: "19px" }} src="/youtubeIcon.png" alt="youtube-icon" />
                     </Link>
 
                 </div>

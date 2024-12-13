@@ -11,12 +11,12 @@ export default function HeroSection() {
         <div className='buttons-box-hero-box flex flex-row gap-4 mt-6'>
 
           <button className='button1 flex flex-row items-center rounded-full bg-orange-600 w-40 h-12 text-white justify-center gap-3 transition-transform duration-300 transform hover:scale-105 cursor-pointer text-lg'>
-            <Image width={12} height={17} style={{width:"12px",height:"17px"}} src="/Frame.png" alt="" />
+            <Image width={12} height={17} style={{width:"12px",height:"17px"}} src="/Frame.png" alt="frame-icon" />
             <p>Video Tour</p>
           </button>
 
           <button className='button2 flex flex-row items-center rounded-full bg-blue-600 w-40 h-12 text-white justify-center gap-3 transition-transform duration-300 transform hover:scale-105 cursor-pointer text-lg'>
-            <Image width={16} height={16} style={{ width: "16px", height: "14px" }} src="/Vector.png" alt="" />
+            <Image width={16} height={16} style={{ width: "16px", height: "14px" }} src="/Vector.png" alt="vector-icon" />
             <p>Download</p>
           </button>
         </div>
