@@ -4,6 +4,7 @@ import Services from "./components/services";
 import HelpSection from "./components/helpSection";
 import Footer from "./components/footer";
 import CopyrightSection from "./components/copyrightSection";
+import Testimoni from "./components/testimoni";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <HeroSection />
       <Services/>
       <HelpSection/>
+      <Testimoni/>
       <Footer/>
       <CopyrightSection/>
     </div>
